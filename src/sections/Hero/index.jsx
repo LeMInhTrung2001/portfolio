@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { HeroText } from '../../components/Herotext';
+import { HeroText } from '../../components/HeroText';
 import { ParallaxBackground } from '../../components/ParallaxBackground';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Astronaut } from '../../components/ParallaxBackground/Astronaut';
