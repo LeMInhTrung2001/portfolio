@@ -1,6 +1,8 @@
-import React from 'react'
-import { FlipWords } from './FlipWords'
+import React from 'react';
+import { FlipWords } from './flip-words';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'motion/react';
+;
 
 
 export const HeroText = () => {
@@ -82,7 +84,7 @@ export const HeroText = () => {
             animate="visible"
             transition={{delay: 1.5}}
           >
-            <FlipWords 
+            <FlipWords
               words={words} 
               className="font-bold text-white text-7xl"
             />
@@ -99,5 +101,5 @@ export const HeroText = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
