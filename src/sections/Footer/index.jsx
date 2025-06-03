@@ -17,7 +17,7 @@ export const Footer = () => {
             </a>
           ))}
         </div>
-        <p>@ 2025 MT. All rights reserved.</p>
+        <p>@ 2025 MT-DEV. All rights reserved.</p>
     </footer>
   )
 }

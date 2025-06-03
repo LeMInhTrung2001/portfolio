@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion, useMotionValue, useSpring } from 'motion/react';
 
 import { myProjects } from '../../constants';
@@ -18,6 +19,7 @@ export const Projects = () => {
   return (
     <section 
       onMouseMove={handleMouseMove}
+      id='work'
       className='relative c-space section-spacing'
     >
       <h2 className='text-heading'>My Selected Projects</h2>

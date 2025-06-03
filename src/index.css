@@ -55,6 +55,38 @@ body {
   overflow-x: hidden;
 }
 
+/* Firefox Scrollbar Styling */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #5c33cc #1a1a1a;
+}
+
+/* Webkit-based Browsers (Chrome, Edge, Safari) */
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #5c33cc;
+  border-radius: 10px;
+  border: 2px solid #1a1a1a;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #613acd;
+}
+
+/* Optional: Style the scrollbar corner (where vertical and horizontal meet) */
+*::-webkit-scrollbar-corner {
+  background: #1a1a1a;
+}
+
 .c-space {
   @apply sm:px-10 px-5 lg:px-15;
 }
